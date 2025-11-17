@@ -1,0 +1,3602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>RST</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>WEN</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>CLK</string>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>200</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="-1580" y="-1760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>2X1 MUX 24 BIT V1.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>LAYOUT</shapeType>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-820" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="-1020" y="-1400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW11</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW12</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AW13</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-3260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I11</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I12</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I13</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I14</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I15</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I16</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I17</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I18</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2020"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I19</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-2000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I20</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I21</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I22</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>I23</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR11</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR12</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AR13</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-1460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O11</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O12</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O13</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O14</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O15</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O16</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O17</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O18</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O19</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O20</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O21</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O22</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>small</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>O23</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1580" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>13 ADDR MEM 24 BIT.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>LAYOUT</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="-1520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>13 ADDR MEM 24 BIT.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>LAYOUT</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="-3560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1x2 DEC MEM.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>LAYOUT</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="-160" y="-3580"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-1580" y="0"/>
+      <p2 x="-1240" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-1000" y="0"/>
+      <p2 x="-880" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="0"/>
+      <p2 x="-620" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="0"/>
+      <p2 x="1000" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1540"/>
+      <p2 x="400" y="-1540"/>
+    </wire>
+    <wire>
+      <p1 x="-1200" y="-520"/>
+      <p2 x="-880" y="-520"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-520"/>
+      <p2 x="-540" y="-520"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="-520"/>
+      <p2 x="1000" y="-520"/>
+    </wire>
+    <wire>
+      <p1 x="-1180" y="-3080"/>
+      <p2 x="60" y="-3080"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="-3080"/>
+      <p2 x="1000" y="-3080"/>
+    </wire>
+    <wire>
+      <p1 x="-640" y="520"/>
+      <p2 x="600" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2060"/>
+      <p2 x="-1000" y="-2060"/>
+    </wire>
+    <wire>
+      <p1 x="-340" y="-2060"/>
+      <p2 x="1000" y="-2060"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="-1040"/>
+      <p2 x="1000" y="-1040"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-20"/>
+      <p2 x="-1260" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-20"/>
+      <p2 x="-600" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="-20"/>
+      <p2 x="1000" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-2580"/>
+      <p2 x="1000" y="-2580"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="20"/>
+      <p2 x="-1220" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="20"/>
+      <p2 x="-640" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="20"/>
+      <p2 x="1000" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1560"/>
+      <p2 x="380" y="-1560"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-540"/>
+      <p2 x="-520" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-540"/>
+      <p2 x="1000" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="-1200" y="-3100"/>
+      <p2 x="80" y="-3100"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="-3100"/>
+      <p2 x="1000" y="-3100"/>
+    </wire>
+    <wire>
+      <p1 x="-660" y="540"/>
+      <p2 x="580" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2080"/>
+      <p2 x="-1020" y="-2080"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="-2080"/>
+      <p2 x="1000" y="-2080"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="-1060"/>
+      <p2 x="1000" y="-1060"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3620"/>
+      <p2 x="900" y="-3620"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-40"/>
+      <p2 x="-1280" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-1020" y="-40"/>
+      <p2 x="-880" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-40"/>
+      <p2 x="-580" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="-40"/>
+      <p2 x="1000" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="-2600"/>
+      <p2 x="1000" y="-2600"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="40"/>
+      <p2 x="-1200" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="40"/>
+      <p2 x="-880" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="40"/>
+      <p2 x="-660" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1580"/>
+      <p2 x="360" y="-1580"/>
+    </wire>
+    <wire>
+      <p1 x="-1220" y="-3120"/>
+      <p2 x="100" y="-3120"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="-3120"/>
+      <p2 x="1000" y="-3120"/>
+    </wire>
+    <wire>
+      <p1 x="-1180" y="-560"/>
+      <p2 x="-880" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-560"/>
+      <p2 x="-500" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="-560"/>
+      <p2 x="1000" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="-680" y="560"/>
+      <p2 x="560" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2100"/>
+      <p2 x="-1040" y="-2100"/>
+    </wire>
+    <wire>
+      <p1 x="-380" y="-2100"/>
+      <p2 x="1000" y="-2100"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="-1080"/>
+      <p2 x="1000" y="-1080"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="-2620"/>
+      <p2 x="1000" y="-2620"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-60"/>
+      <p2 x="-1300" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-60"/>
+      <p2 x="-560" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="-60"/>
+      <p2 x="1000" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="60"/>
+      <p2 x="-1180" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="60"/>
+      <p2 x="-680" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1600"/>
+      <p2 x="340" y="-1600"/>
+    </wire>
+    <wire>
+      <p1 x="-1240" y="-3140"/>
+      <p2 x="120" y="-3140"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="-3140"/>
+      <p2 x="1000" y="-3140"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-580"/>
+      <p2 x="-480" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="-580"/>
+      <p2 x="1000" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="-700" y="580"/>
+      <p2 x="540" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2120"/>
+      <p2 x="-1060" y="-2120"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="-2120"/>
+      <p2 x="1000" y="-2120"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="-1100"/>
+      <p2 x="1000" y="-1100"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-2640"/>
+      <p2 x="1000" y="-2640"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-80"/>
+      <p2 x="-1320" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-1040" y="-80"/>
+      <p2 x="-880" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-80"/>
+      <p2 x="-540" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="-80"/>
+      <p2 x="1000" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="80"/>
+      <p2 x="-1160" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-960" y="80"/>
+      <p2 x="-880" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="80"/>
+      <p2 x="-700" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1620"/>
+      <p2 x="320" y="-1620"/>
+    </wire>
+    <wire>
+      <p1 x="-1260" y="-3160"/>
+      <p2 x="140" y="-3160"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="-3160"/>
+      <p2 x="1000" y="-3160"/>
+    </wire>
+    <wire>
+      <p1 x="-1160" y="-600"/>
+      <p2 x="-880" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-600"/>
+      <p2 x="-460" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-600"/>
+      <p2 x="1000" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="-720" y="600"/>
+      <p2 x="520" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2140"/>
+      <p2 x="-1080" y="-2140"/>
+    </wire>
+    <wire>
+      <p1 x="-420" y="-2140"/>
+      <p2 x="1000" y="-2140"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="-1120"/>
+      <p2 x="1000" y="-1120"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-2660"/>
+      <p2 x="1000" y="-2660"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="-100"/>
+      <p2 x="1000" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-100"/>
+      <p2 x="-1340" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-100"/>
+      <p2 x="-520" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="100"/>
+      <p2 x="-1140" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="100"/>
+      <p2 x="-720" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1640"/>
+      <p2 x="300" y="-1640"/>
+    </wire>
+    <wire>
+      <p1 x="-1280" y="-3180"/>
+      <p2 x="160" y="-3180"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-3180"/>
+      <p2 x="1000" y="-3180"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-620"/>
+      <p2 x="-440" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-620"/>
+      <p2 x="1000" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="-740" y="620"/>
+      <p2 x="500" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2160"/>
+      <p2 x="-1100" y="-2160"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="-2160"/>
+      <p2 x="1000" y="-2160"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-1140"/>
+      <p2 x="1000" y="-1140"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="-2680"/>
+      <p2 x="1000" y="-2680"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="-120"/>
+      <p2 x="1000" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-120"/>
+      <p2 x="-1360" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="-120"/>
+      <p2 x="-880" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-120"/>
+      <p2 x="-500" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="120"/>
+      <p2 x="-1120" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="120"/>
+      <p2 x="-880" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="120"/>
+      <p2 x="-740" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1660"/>
+      <p2 x="280" y="-1660"/>
+    </wire>
+    <wire>
+      <p1 x="-1300" y="-3200"/>
+      <p2 x="180" y="-3200"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="-3200"/>
+      <p2 x="1000" y="-3200"/>
+    </wire>
+    <wire>
+      <p1 x="-1140" y="-640"/>
+      <p2 x="-880" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-640"/>
+      <p2 x="-420" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="-640"/>
+      <p2 x="1000" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="-760" y="640"/>
+      <p2 x="480" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2180"/>
+      <p2 x="-1120" y="-2180"/>
+    </wire>
+    <wire>
+      <p1 x="-460" y="-2180"/>
+      <p2 x="1000" y="-2180"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="-1160"/>
+      <p2 x="1000" y="-1160"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-2700"/>
+      <p2 x="1000" y="-2700"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="-140"/>
+      <p2 x="1000" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-140"/>
+      <p2 x="-1380" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-140"/>
+      <p2 x="-480" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="140"/>
+      <p2 x="-1100" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="140"/>
+      <p2 x="-760" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1680"/>
+      <p2 x="260" y="-1680"/>
+    </wire>
+    <wire>
+      <p1 x="-1320" y="-3220"/>
+      <p2 x="200" y="-3220"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="-3220"/>
+      <p2 x="1000" y="-3220"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-660"/>
+      <p2 x="-400" y="-660"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-660"/>
+      <p2 x="1000" y="-660"/>
+    </wire>
+    <wire>
+      <p1 x="-780" y="660"/>
+      <p2 x="460" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2200"/>
+      <p2 x="-1140" y="-2200"/>
+    </wire>
+    <wire>
+      <p1 x="-480" y="-2200"/>
+      <p2 x="1000" y="-2200"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="-1180"/>
+      <p2 x="1000" y="-1180"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-2720"/>
+      <p2 x="1000" y="-2720"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-160"/>
+      <p2 x="1000" y="-160"/>
+    </wire>
+    <wire>
+      <p1 x="-1380" y="-160"/>
+      <p2 x="-880" y="-160"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-160"/>
+      <p2 x="-1400" y="-160"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-160"/>
+      <p2 x="-460" y="-160"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="160"/>
+      <p2 x="-1080" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-900" y="160"/>
+      <p2 x="-880" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="160"/>
+      <p2 x="-780" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1700"/>
+      <p2 x="240" y="-1700"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-3240"/>
+      <p2 x="1000" y="-3240"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="-680"/>
+      <p2 x="-880" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-680"/>
+      <p2 x="-380" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-680"/>
+      <p2 x="1000" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="-800" y="680"/>
+      <p2 x="440" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2220"/>
+      <p2 x="-1160" y="-2220"/>
+    </wire>
+    <wire>
+      <p1 x="-500" y="-2220"/>
+      <p2 x="1000" y="-2220"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-1200"/>
+      <p2 x="1000" y="-1200"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="-2740"/>
+      <p2 x="1000" y="-2740"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-180"/>
+      <p2 x="1000" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="-1400" y="-180"/>
+      <p2 x="-1060" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-180"/>
+      <p2 x="-1420" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-180"/>
+      <p2 x="-440" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="180"/>
+      <p2 x="-800" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1720"/>
+      <p2 x="220" y="-1720"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3260"/>
+      <p2 x="-1540" y="-3260"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-3260"/>
+      <p2 x="1000" y="-3260"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-700"/>
+      <p2 x="-360" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="-700"/>
+      <p2 x="1000" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2240"/>
+      <p2 x="-1180" y="-2240"/>
+    </wire>
+    <wire>
+      <p1 x="-520" y="-2240"/>
+      <p2 x="1000" y="-2240"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-1220"/>
+      <p2 x="1000" y="-1220"/>
+    </wire>
+    <wire>
+      <p1 x="-860" y="-2760"/>
+      <p2 x="-260" y="-2760"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-2760"/>
+      <p2 x="1000" y="-2760"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-200"/>
+      <p2 x="1000" y="-200"/>
+    </wire>
+    <wire>
+      <p1 x="-1360" y="-200"/>
+      <p2 x="-880" y="-200"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-200"/>
+      <p2 x="-1440" y="-200"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-200"/>
+      <p2 x="-420" y="-200"/>
+    </wire>
+    <wire>
+      <p1 x="-1100" y="-720"/>
+      <p2 x="-880" y="-720"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-720"/>
+      <p2 x="-340" y="-720"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-720"/>
+      <p2 x="1000" y="-720"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3280"/>
+      <p2 x="580" y="-3280"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-3280"/>
+      <p2 x="1000" y="-3280"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2260"/>
+      <p2 x="-1200" y="-2260"/>
+    </wire>
+    <wire>
+      <p1 x="-540" y="-2260"/>
+      <p2 x="1000" y="-2260"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-1240"/>
+      <p2 x="1000" y="-1240"/>
+    </wire>
+    <wire>
+      <p1 x="-880" y="-2780"/>
+      <p2 x="-240" y="-2780"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="-2780"/>
+      <p2 x="1000" y="-2780"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-220"/>
+      <p2 x="1000" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="-1420" y="-220"/>
+      <p2 x="-1040" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-220"/>
+      <p2 x="-1460" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-220"/>
+      <p2 x="-400" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="-340" y="220"/>
+      <p2 x="900" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1760"/>
+      <p2 x="-800" y="-1760"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-740"/>
+      <p2 x="-320" y="-740"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="-740"/>
+      <p2 x="1000" y="-740"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3300"/>
+      <p2 x="600" y="-3300"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="-3300"/>
+      <p2 x="1000" y="-3300"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2280"/>
+      <p2 x="-1220" y="-2280"/>
+    </wire>
+    <wire>
+      <p1 x="-560" y="-2280"/>
+      <p2 x="1000" y="-2280"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="-1260"/>
+      <p2 x="1000" y="-1260"/>
+    </wire>
+    <wire>
+      <p1 x="-900" y="-2800"/>
+      <p2 x="-220" y="-2800"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="-2800"/>
+      <p2 x="1000" y="-2800"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="-240"/>
+      <p2 x="1000" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="-1340" y="-240"/>
+      <p2 x="-880" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-240"/>
+      <p2 x="-1480" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-240"/>
+      <p2 x="-380" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="240"/>
+      <p2 x="880" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="-1080" y="-760"/>
+      <p2 x="-880" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-760"/>
+      <p2 x="-300" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="-760"/>
+      <p2 x="1000" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3320"/>
+      <p2 x="620" y="-3320"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-3320"/>
+      <p2 x="1000" y="-3320"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2300"/>
+      <p2 x="-1240" y="-2300"/>
+    </wire>
+    <wire>
+      <p1 x="-580" y="-2300"/>
+      <p2 x="1000" y="-2300"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-1280"/>
+      <p2 x="1000" y="-1280"/>
+    </wire>
+    <wire>
+      <p1 x="-920" y="-2820"/>
+      <p2 x="-200" y="-2820"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="-2820"/>
+      <p2 x="1000" y="-2820"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-260"/>
+      <p2 x="1000" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="-1440" y="-260"/>
+      <p2 x="-1020" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-260"/>
+      <p2 x="-360" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-260"/>
+      <p2 x="-1500" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="-380" y="260"/>
+      <p2 x="860" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-780"/>
+      <p2 x="-780" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="-780"/>
+      <p2 x="1000" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3340"/>
+      <p2 x="640" y="-3340"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-3340"/>
+      <p2 x="1000" y="-3340"/>
+    </wire>
+    <wire>
+      <p1 x="-600" y="-2320"/>
+      <p2 x="1000" y="-2320"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2320"/>
+      <p2 x="-1260" y="-2320"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-1300"/>
+      <p2 x="1000" y="-1300"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="-2840"/>
+      <p2 x="-180" y="-2840"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="-2840"/>
+      <p2 x="1000" y="-2840"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-280"/>
+      <p2 x="1000" y="-280"/>
+    </wire>
+    <wire>
+      <p1 x="-1320" y="-280"/>
+      <p2 x="-880" y="-280"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-280"/>
+      <p2 x="-1520" y="-280"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-280"/>
+      <p2 x="-340" y="-280"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="280"/>
+      <p2 x="840" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-800"/>
+      <p2 x="-800" y="-800"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="-800"/>
+      <p2 x="1000" y="-800"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3360"/>
+      <p2 x="660" y="-3360"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-3360"/>
+      <p2 x="1000" y="-3360"/>
+    </wire>
+    <wire>
+      <p1 x="-620" y="-2340"/>
+      <p2 x="1000" y="-2340"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2340"/>
+      <p2 x="-1280" y="-2340"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-1320"/>
+      <p2 x="1000" y="-1320"/>
+    </wire>
+    <wire>
+      <p1 x="-960" y="-2860"/>
+      <p2 x="-160" y="-2860"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="-2860"/>
+      <p2 x="1000" y="-2860"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-300"/>
+      <p2 x="1000" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="-1460" y="-300"/>
+      <p2 x="-1000" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-300"/>
+      <p2 x="-1540" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-300"/>
+      <p2 x="-760" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="-420" y="300"/>
+      <p2 x="820" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="-820"/>
+      <p2 x="1000" y="-820"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3380"/>
+      <p2 x="680" y="-3380"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-3380"/>
+      <p2 x="1000" y="-3380"/>
+    </wire>
+    <wire>
+      <p1 x="-640" y="-2360"/>
+      <p2 x="1000" y="-2360"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2360"/>
+      <p2 x="-1300" y="-2360"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-1340"/>
+      <p2 x="1000" y="-1340"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="-2880"/>
+      <p2 x="-140" y="-2880"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="-2880"/>
+      <p2 x="1000" y="-2880"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-320"/>
+      <p2 x="1000" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="-1300" y="-320"/>
+      <p2 x="-880" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-320"/>
+      <p2 x="-740" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="320"/>
+      <p2 x="800" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="-840"/>
+      <p2 x="1000" y="-840"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3400"/>
+      <p2 x="700" y="-3400"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="-3400"/>
+      <p2 x="1000" y="-3400"/>
+    </wire>
+    <wire>
+      <p1 x="-660" y="-2380"/>
+      <p2 x="1000" y="-2380"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2380"/>
+      <p2 x="-1320" y="-2380"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="-1360"/>
+      <p2 x="1000" y="-1360"/>
+    </wire>
+    <wire>
+      <p1 x="-1000" y="-2900"/>
+      <p2 x="-120" y="-2900"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="-2900"/>
+      <p2 x="1000" y="-2900"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-340"/>
+      <p2 x="1000" y="-340"/>
+    </wire>
+    <wire>
+      <p1 x="-1480" y="-340"/>
+      <p2 x="-980" y="-340"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-340"/>
+      <p2 x="-720" y="-340"/>
+    </wire>
+    <wire>
+      <p1 x="-460" y="340"/>
+      <p2 x="780" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="-860"/>
+      <p2 x="1000" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3420"/>
+      <p2 x="720" y="-3420"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="-3420"/>
+      <p2 x="1000" y="-3420"/>
+    </wire>
+    <wire>
+      <p1 x="-680" y="-2400"/>
+      <p2 x="1000" y="-2400"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="-1380"/>
+      <p2 x="1000" y="-1380"/>
+    </wire>
+    <wire>
+      <p1 x="-1020" y="-2920"/>
+      <p2 x="-100" y="-2920"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="-2920"/>
+      <p2 x="1000" y="-2920"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="-360"/>
+      <p2 x="1000" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="-1280" y="-360"/>
+      <p2 x="-880" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-360"/>
+      <p2 x="-700" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="-480" y="360"/>
+      <p2 x="760" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="-880"/>
+      <p2 x="1000" y="-880"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3440"/>
+      <p2 x="740" y="-3440"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="-3440"/>
+      <p2 x="1000" y="-3440"/>
+    </wire>
+    <wire>
+      <p1 x="-700" y="-2420"/>
+      <p2 x="1000" y="-2420"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="-1400"/>
+      <p2 x="1000" y="-1400"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="-1400"/>
+      <p2 x="-780" y="-1400"/>
+    </wire>
+    <wire>
+      <p1 x="-1560" y="-1400"/>
+      <p2 x="-1020" y="-1400"/>
+    </wire>
+    <wire>
+      <p1 x="-1040" y="-2940"/>
+      <p2 x="-80" y="-2940"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="-2940"/>
+      <p2 x="1000" y="-2940"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-380"/>
+      <p2 x="1000" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="-1500" y="-380"/>
+      <p2 x="-960" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-380"/>
+      <p2 x="-680" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="-500" y="380"/>
+      <p2 x="740" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1920"/>
+      <p2 x="-860" y="-1920"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="-900"/>
+      <p2 x="1000" y="-900"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="-3460"/>
+      <p2 x="1000" y="-3460"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3460"/>
+      <p2 x="760" y="-3460"/>
+    </wire>
+    <wire>
+      <p1 x="-720" y="-2440"/>
+      <p2 x="1000" y="-2440"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="-1420"/>
+      <p2 x="1000" y="-1420"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="-2960"/>
+      <p2 x="-60" y="-2960"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="-2960"/>
+      <p2 x="1000" y="-2960"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="-400"/>
+      <p2 x="1000" y="-400"/>
+    </wire>
+    <wire>
+      <p1 x="-1260" y="-400"/>
+      <p2 x="-880" y="-400"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-400"/>
+      <p2 x="-660" y="-400"/>
+    </wire>
+    <wire>
+      <p1 x="-520" y="400"/>
+      <p2 x="720" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1940"/>
+      <p2 x="-880" y="-1940"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="-3480"/>
+      <p2 x="1000" y="-3480"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3480"/>
+      <p2 x="780" y="-3480"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="-920"/>
+      <p2 x="1000" y="-920"/>
+    </wire>
+    <wire>
+      <p1 x="-740" y="-2460"/>
+      <p2 x="1000" y="-2460"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="-1440"/>
+      <p2 x="1000" y="-1440"/>
+    </wire>
+    <wire>
+      <p1 x="-1080" y="-2980"/>
+      <p2 x="-40" y="-2980"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="-2980"/>
+      <p2 x="1000" y="-2980"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-420"/>
+      <p2 x="1000" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="-1520" y="-420"/>
+      <p2 x="-940" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-420"/>
+      <p2 x="-640" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="-540" y="420"/>
+      <p2 x="700" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1960"/>
+      <p2 x="-900" y="-1960"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3500"/>
+      <p2 x="800" y="-3500"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="-3500"/>
+      <p2 x="1000" y="-3500"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="-940"/>
+      <p2 x="1000" y="-940"/>
+    </wire>
+    <wire>
+      <p1 x="-760" y="-2480"/>
+      <p2 x="1000" y="-2480"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1460"/>
+      <p2 x="-1560" y="-1460"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="-1460"/>
+      <p2 x="1000" y="-1460"/>
+    </wire>
+    <wire>
+      <p1 x="-1100" y="-3000"/>
+      <p2 x="-20" y="-3000"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="-3000"/>
+      <p2 x="1000" y="-3000"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-440"/>
+      <p2 x="1000" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="-1240" y="-440"/>
+      <p2 x="-880" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-440"/>
+      <p2 x="-620" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="-560" y="440"/>
+      <p2 x="680" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1980"/>
+      <p2 x="-920" y="-1980"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="-3520"/>
+      <p2 x="1000" y="-3520"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3520"/>
+      <p2 x="820" y="-3520"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="-960"/>
+      <p2 x="1000" y="-960"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-2500"/>
+      <p2 x="1000" y="-2500"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="-1480"/>
+      <p2 x="1000" y="-1480"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1480"/>
+      <p2 x="460" y="-1480"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="-3020"/>
+      <p2 x="0" y="-3020"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-3020"/>
+      <p2 x="1000" y="-3020"/>
+    </wire>
+    <wire>
+      <p1 x="-1540" y="-460"/>
+      <p2 x="-900" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-460"/>
+      <p2 x="-600" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-460"/>
+      <p2 x="1000" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="-580" y="460"/>
+      <p2 x="660" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2000"/>
+      <p2 x="-940" y="-2000"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="-3540"/>
+      <p2 x="1000" y="-3540"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3540"/>
+      <p2 x="-160" y="-3540"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="-3540"/>
+      <p2 x="840" y="-3540"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-980"/>
+      <p2 x="1000" y="-980"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-2520"/>
+      <p2 x="1000" y="-2520"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="-1500"/>
+      <p2 x="1000" y="-1500"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1500"/>
+      <p2 x="440" y="-1500"/>
+    </wire>
+    <wire>
+      <p1 x="-1140" y="-3040"/>
+      <p2 x="20" y="-3040"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="-3040"/>
+      <p2 x="1000" y="-3040"/>
+    </wire>
+    <wire>
+      <p1 x="-1220" y="-480"/>
+      <p2 x="-880" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-480"/>
+      <p2 x="-580" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-480"/>
+      <p2 x="1000" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="-600" y="480"/>
+      <p2 x="640" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="-2020"/>
+      <p2 x="1000" y="-2020"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2020"/>
+      <p2 x="-960" y="-2020"/>
+    </wire>
+    <wire>
+      <p1 x="-1540" y="-3560"/>
+      <p2 x="-160" y="-3560"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="-3560"/>
+      <p2 x="860" y="-3560"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="-1000"/>
+      <p2 x="1000" y="-1000"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="-2540"/>
+      <p2 x="1000" y="-2540"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-1520"/>
+      <p2 x="420" y="-1520"/>
+    </wire>
+    <wire>
+      <p1 x="-1160" y="-3060"/>
+      <p2 x="40" y="-3060"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="-3060"/>
+      <p2 x="1000" y="-3060"/>
+    </wire>
+    <wire>
+      <p1 x="-820" y="-500"/>
+      <p2 x="-560" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="-500"/>
+      <p2 x="1000" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="-620" y="500"/>
+      <p2 x="620" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="-320" y="-2040"/>
+      <p2 x="1000" y="-2040"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-2040"/>
+      <p2 x="-980" y="-2040"/>
+    </wire>
+    <wire>
+      <p1 x="-1580" y="-3580"/>
+      <p2 x="880" y="-3580"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="-1020"/>
+      <p2 x="1000" y="-1020"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="-2560"/>
+      <p2 x="1000" y="-2560"/>
+    </wire>
+    <wire>
+      <p1 x="0" y="-3020"/>
+      <p2 x="0" y="-980"/>
+    </wire>
+    <wire>
+      <p1 x="-1540" y="-3560"/>
+      <p2 x="-1540" y="-3260"/>
+    </wire>
+    <wire>
+      <p1 x="-1540" y="-460"/>
+      <p2 x="-1540" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="-2760"/>
+      <p2 x="-260" y="-720"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-2700"/>
+      <p2 x="260" y="-1680"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-1680"/>
+      <p2 x="260" y="-660"/>
+    </wire>
+    <wire>
+      <p1 x="-520" y="-2240"/>
+      <p2 x="-520" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="-520" y="-100"/>
+      <p2 x="-520" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="-360"/>
+      <p2 x="520" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="-780" y="-1400"/>
+      <p2 x="-780" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="-780" y="160"/>
+      <p2 x="-780" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="-3480"/>
+      <p2 x="780" y="-3440"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="-100"/>
+      <p2 x="780" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="780" y="-3440"/>
+      <p2 x="780" y="-1400"/>
+    </wire>
+    <wire>
+      <p1 x="-1040" y="-220"/>
+      <p2 x="-1040" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-1040" y="-2940"/>
+      <p2 x="-1040" y="-2100"/>
+    </wire>
+    <wire>
+      <p1 x="-1300" y="-320"/>
+      <p2 x="-1300" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="-1300" y="-3200"/>
+      <p2 x="-1300" y="-2360"/>
+    </wire>
+    <wire>
+      <p1 x="-20" y="-3000"/>
+      <p2 x="-20" y="-960"/>
+    </wire>
+    <wire>
+      <p1 x="20" y="-3040"/>
+      <p2 x="20" y="-1000"/>
+    </wire>
+    <wire>
+      <p1 x="-1560" y="-1460"/>
+      <p2 x="-1560" y="-1400"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="-2680"/>
+      <p2 x="280" y="-1660"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="-1660"/>
+      <p2 x="280" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="-540" y="-2260"/>
+      <p2 x="-540" y="-520"/>
+    </wire>
+    <wire>
+      <p1 x="-540" y="-80"/>
+      <p2 x="-540" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-340"/>
+      <p2 x="540" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="-800" y="-1760"/>
+      <p2 x="-800" y="-800"/>
+    </wire>
+    <wire>
+      <p1 x="-800" y="180"/>
+      <p2 x="-800" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="-3500"/>
+      <p2 x="800" y="-3460"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="-80"/>
+      <p2 x="800" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="-3460"/>
+      <p2 x="800" y="-1420"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="-180"/>
+      <p2 x="-1060" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="-2960"/>
+      <p2 x="-1060" y="-2120"/>
+    </wire>
+    <wire>
+      <p1 x="-1320" y="-280"/>
+      <p2 x="-1320" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="-1320" y="-3220"/>
+      <p2 x="-1320" y="-2380"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="-2980"/>
+      <p2 x="-40" y="-940"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="-3060"/>
+      <p2 x="40" y="-1020"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="-2020"/>
+      <p2 x="-300" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-2660"/>
+      <p2 x="300" y="-1640"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-1640"/>
+      <p2 x="300" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="-560" y="-2280"/>
+      <p2 x="-560" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="-560" y="-60"/>
+      <p2 x="-560" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-320"/>
+      <p2 x="560" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="-3520"/>
+      <p2 x="820" y="-3480"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="-60"/>
+      <p2 x="820" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="-3480"/>
+      <p2 x="820" y="-1440"/>
+    </wire>
+    <wire>
+      <p1 x="-1080" y="-760"/>
+      <p2 x="-1080" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-1080" y="-2980"/>
+      <p2 x="-1080" y="-2140"/>
+    </wire>
+    <wire>
+      <p1 x="-1340" y="-240"/>
+      <p2 x="-1340" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="-2960"/>
+      <p2 x="-60" y="-920"/>
+    </wire>
+    <wire>
+      <p1 x="60" y="-3080"/>
+      <p2 x="60" y="-1040"/>
+    </wire>
+    <wire>
+      <p1 x="-320" y="-2040"/>
+      <p2 x="-320" y="-740"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-2640"/>
+      <p2 x="320" y="-1620"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-1620"/>
+      <p2 x="320" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="-580" y="-2300"/>
+      <p2 x="-580" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="-580" y="-40"/>
+      <p2 x="-580" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-3280"/>
+      <p2 x="580" y="-3240"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-300"/>
+      <p2 x="580" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-3240"/>
+      <p2 x="580" y="-1200"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="-3540"/>
+      <p2 x="840" y="-1460"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="-40"/>
+      <p2 x="840" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="-1100" y="-720"/>
+      <p2 x="-1100" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="-1100" y="-3000"/>
+      <p2 x="-1100" y="-2160"/>
+    </wire>
+    <wire>
+      <p1 x="-1360" y="-200"/>
+      <p2 x="-1360" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="-80" y="-2940"/>
+      <p2 x="-80" y="-900"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="-3100"/>
+      <p2 x="80" y="-1060"/>
+    </wire>
+    <wire>
+      <p1 x="-340" y="-2060"/>
+      <p2 x="-340" y="-720"/>
+    </wire>
+    <wire>
+      <p1 x="-340" y="-280"/>
+      <p2 x="-340" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="-2620"/>
+      <p2 x="340" y="-1600"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="-1600"/>
+      <p2 x="340" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="-600" y="-2320"/>
+      <p2 x="-600" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="-600" y="-20"/>
+      <p2 x="-600" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-3300"/>
+      <p2 x="600" y="-3260"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-280"/>
+      <p2 x="600" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-3260"/>
+      <p2 x="600" y="-1220"/>
+    </wire>
+    <wire>
+      <p1 x="-860" y="-2760"/>
+      <p2 x="-860" y="-1920"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="-3560"/>
+      <p2 x="860" y="-3500"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="-20"/>
+      <p2 x="860" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="-680"/>
+      <p2 x="-1120" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="-1120" y="-3020"/>
+      <p2 x="-1120" y="-2180"/>
+    </wire>
+    <wire>
+      <p1 x="-1380" y="-160"/>
+      <p2 x="-1380" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="-100" y="-2920"/>
+      <p2 x="-100" y="-880"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="-3120"/>
+      <p2 x="100" y="-1080"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="-2080"/>
+      <p2 x="-360" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="-360" y="-260"/>
+      <p2 x="-360" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="-2600"/>
+      <p2 x="360" y="-1580"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="-1580"/>
+      <p2 x="360" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="-620" y="-2340"/>
+      <p2 x="-620" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="-620" y="0"/>
+      <p2 x="-620" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-3320"/>
+      <p2 x="620" y="-3280"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-260"/>
+      <p2 x="620" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="-3280"/>
+      <p2 x="620" y="-1240"/>
+    </wire>
+    <wire>
+      <p1 x="-880" y="-2780"/>
+      <p2 x="-880" y="-1940"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="-3580"/>
+      <p2 x="880" y="-3520"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="0"/>
+      <p2 x="880" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="-3520"/>
+      <p2 x="880" y="-1480"/>
+    </wire>
+    <wire>
+      <p1 x="-1140" y="-640"/>
+      <p2 x="-1140" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="-1140" y="-3040"/>
+      <p2 x="-1140" y="-2200"/>
+    </wire>
+    <wire>
+      <p1 x="-1400" y="-180"/>
+      <p2 x="-1400" y="-160"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="-2900"/>
+      <p2 x="-120" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="-3140"/>
+      <p2 x="120" y="-1100"/>
+    </wire>
+    <wire>
+      <p1 x="-380" y="-2100"/>
+      <p2 x="-380" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="-380" y="-240"/>
+      <p2 x="-380" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-2580"/>
+      <p2 x="380" y="-1560"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="-1560"/>
+      <p2 x="380" y="-540"/>
+    </wire>
+    <wire>
+      <p1 x="-640" y="-2360"/>
+      <p2 x="-640" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="-640" y="20"/>
+      <p2 x="-640" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="-3340"/>
+      <p2 x="640" y="-3300"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="-240"/>
+      <p2 x="640" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="-3300"/>
+      <p2 x="640" y="-1260"/>
+    </wire>
+    <wire>
+      <p1 x="-900" y="-460"/>
+      <p2 x="-900" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="-900" y="-2800"/>
+      <p2 x="-900" y="-1960"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="-3620"/>
+      <p2 x="900" y="-3540"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="20"/>
+      <p2 x="900" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="-3540"/>
+      <p2 x="900" y="-1500"/>
+    </wire>
+    <wire>
+      <p1 x="-1160" y="-600"/>
+      <p2 x="-1160" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-1160" y="-3060"/>
+      <p2 x="-1160" y="-2220"/>
+    </wire>
+    <wire>
+      <p1 x="-1420" y="-220"/>
+      <p2 x="-1420" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="-140" y="-2880"/>
+      <p2 x="-140" y="-840"/>
+    </wire>
+    <wire>
+      <p1 x="140" y="-3160"/>
+      <p2 x="140" y="-1120"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="-2120"/>
+      <p2 x="-400" y="-660"/>
+    </wire>
+    <wire>
+      <p1 x="-400" y="-220"/>
+      <p2 x="-400" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="-2560"/>
+      <p2 x="400" y="-1540"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="-1540"/>
+      <p2 x="400" y="-520"/>
+    </wire>
+    <wire>
+      <p1 x="-660" y="-2380"/>
+      <p2 x="-660" y="-400"/>
+    </wire>
+    <wire>
+      <p1 x="-660" y="40"/>
+      <p2 x="-660" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-3360"/>
+      <p2 x="660" y="-3320"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-220"/>
+      <p2 x="660" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="-3320"/>
+      <p2 x="660" y="-1280"/>
+    </wire>
+    <wire>
+      <p1 x="-920" y="-2820"/>
+      <p2 x="-920" y="-1980"/>
+    </wire>
+    <wire>
+      <p1 x="-1180" y="-560"/>
+      <p2 x="-1180" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="-1180" y="-3080"/>
+      <p2 x="-1180" y="-2240"/>
+    </wire>
+    <wire>
+      <p1 x="-1440" y="-260"/>
+      <p2 x="-1440" y="-200"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="-2860"/>
+      <p2 x="-160" y="-820"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-3180"/>
+      <p2 x="160" y="-1140"/>
+    </wire>
+    <wire>
+      <p1 x="-420" y="-2140"/>
+      <p2 x="-420" y="-640"/>
+    </wire>
+    <wire>
+      <p1 x="-420" y="-200"/>
+      <p2 x="-420" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="-2540"/>
+      <p2 x="420" y="-1520"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="-1520"/>
+      <p2 x="420" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="-680" y="-2400"/>
+      <p2 x="-680" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="-680" y="60"/>
+      <p2 x="-680" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-3380"/>
+      <p2 x="680" y="-3340"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-200"/>
+      <p2 x="680" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-3340"/>
+      <p2 x="680" y="-1300"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="-420"/>
+      <p2 x="-940" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="-940" y="-2840"/>
+      <p2 x="-940" y="-2000"/>
+    </wire>
+    <wire>
+      <p1 x="-1200" y="-520"/>
+      <p2 x="-1200" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-1200" y="-3100"/>
+      <p2 x="-1200" y="-2260"/>
+    </wire>
+    <wire>
+      <p1 x="-1460" y="-300"/>
+      <p2 x="-1460" y="-220"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="-2840"/>
+      <p2 x="-180" y="-800"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="-3200"/>
+      <p2 x="180" y="-1160"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="-2160"/>
+      <p2 x="-440" y="-620"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="-180"/>
+      <p2 x="-440" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-2520"/>
+      <p2 x="440" y="-1500"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-440"/>
+      <p2 x="440" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="-1500"/>
+      <p2 x="440" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="-700" y="-2420"/>
+      <p2 x="-700" y="-360"/>
+    </wire>
+    <wire>
+      <p1 x="-700" y="80"/>
+      <p2 x="-700" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-3400"/>
+      <p2 x="700" y="-3360"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-180"/>
+      <p2 x="700" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="-3360"/>
+      <p2 x="700" y="-1320"/>
+    </wire>
+    <wire>
+      <p1 x="-960" y="-380"/>
+      <p2 x="-960" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-960" y="-2860"/>
+      <p2 x="-960" y="-2020"/>
+    </wire>
+    <wire>
+      <p1 x="-1220" y="-480"/>
+      <p2 x="-1220" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="-1220" y="-3120"/>
+      <p2 x="-1220" y="-2280"/>
+    </wire>
+    <wire>
+      <p1 x="-1480" y="-340"/>
+      <p2 x="-1480" y="-240"/>
+    </wire>
+    <wire>
+      <p1 x="-200" y="-2820"/>
+      <p2 x="-200" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="-3220"/>
+      <p2 x="200" y="-1180"/>
+    </wire>
+    <wire>
+      <p1 x="-460" y="-2180"/>
+      <p2 x="-460" y="-600"/>
+    </wire>
+    <wire>
+      <p1 x="-460" y="-160"/>
+      <p2 x="-460" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-2500"/>
+      <p2 x="460" y="-1480"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-420"/>
+      <p2 x="460" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-1480"/>
+      <p2 x="460" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="-720" y="-2440"/>
+      <p2 x="-720" y="-340"/>
+    </wire>
+    <wire>
+      <p1 x="-720" y="100"/>
+      <p2 x="-720" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-3420"/>
+      <p2 x="720" y="-3380"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-160"/>
+      <p2 x="720" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-3380"/>
+      <p2 x="720" y="-1340"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="-340"/>
+      <p2 x="-980" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="-2880"/>
+      <p2 x="-980" y="-2040"/>
+    </wire>
+    <wire>
+      <p1 x="-1240" y="-440"/>
+      <p2 x="-1240" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-1240" y="-3140"/>
+      <p2 x="-1240" y="-2300"/>
+    </wire>
+    <wire>
+      <p1 x="-1500" y="-380"/>
+      <p2 x="-1500" y="-260"/>
+    </wire>
+    <wire>
+      <p1 x="-220" y="-2800"/>
+      <p2 x="-220" y="-760"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="-2740"/>
+      <p2 x="220" y="-1720"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="-1720"/>
+      <p2 x="220" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="-480" y="-2200"/>
+      <p2 x="-480" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="-480" y="-140"/>
+      <p2 x="-480" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="-400"/>
+      <p2 x="480" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="-740" y="-2460"/>
+      <p2 x="-740" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="-740" y="120"/>
+      <p2 x="-740" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="-3440"/>
+      <p2 x="740" y="-3400"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="-140"/>
+      <p2 x="740" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="-3400"/>
+      <p2 x="740" y="-1360"/>
+    </wire>
+    <wire>
+      <p1 x="-1000" y="-300"/>
+      <p2 x="-1000" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-1000" y="-2900"/>
+      <p2 x="-1000" y="-2060"/>
+    </wire>
+    <wire>
+      <p1 x="-1260" y="-400"/>
+      <p2 x="-1260" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="-1260" y="-3160"/>
+      <p2 x="-1260" y="-2320"/>
+    </wire>
+    <wire>
+      <p1 x="-1520" y="-420"/>
+      <p2 x="-1520" y="-280"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="-2780"/>
+      <p2 x="-240" y="-740"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-2720"/>
+      <p2 x="240" y="-1700"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-1700"/>
+      <p2 x="240" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="-500" y="-2220"/>
+      <p2 x="-500" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="-500" y="-120"/>
+      <p2 x="-500" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-380"/>
+      <p2 x="500" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="-760" y="-2480"/>
+      <p2 x="-760" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="-760" y="140"/>
+      <p2 x="-760" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="-3460"/>
+      <p2 x="760" y="-3420"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="-120"/>
+      <p2 x="760" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="-3420"/>
+      <p2 x="760" y="-1380"/>
+    </wire>
+    <wire>
+      <p1 x="-1020" y="-260"/>
+      <p2 x="-1020" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-1020" y="-2920"/>
+      <p2 x="-1020" y="-2080"/>
+    </wire>
+    <wire>
+      <p1 x="-1280" y="-360"/>
+      <p2 x="-1280" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="-1280" y="-3180"/>
+      <p2 x="-1280" y="-2340"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

@@ -4,16 +4,6 @@
   <attributes/>
   <visualElements>
     <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="-100"/>
-    </visualElement>
-    <visualElement>
       <elementName>In</elementName>
       <elementAttributes>
         <entry>
@@ -357,12 +347,12 @@
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
-          <string>Label</string>
-          <string>CLK</string>
-        </entry>
-        <entry>
           <string>runRealTime</string>
           <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>CLK</string>
         </entry>
       </elementAttributes>
       <pos x="180" y="-220"/>
@@ -386,336 +376,6 @@
         </entry>
       </elementAttributes>
       <pos x="180" y="-140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D1</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="-20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="160"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D5</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D7</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="520"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D9</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D11</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="880"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D13</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="1060"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D15</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="1240"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D17</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="1420"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D19</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="1600"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D21</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="1780"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D23</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="1960"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D25</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="2140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D27</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="2320"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D29</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="2500"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D31</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="2680"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D33</string>
-        </entry>
-      </elementAttributes>
-      <pos x="2280" y="2860"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D6</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D8</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="640"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D10</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="820"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D12</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="1000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D14</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="1180"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D16</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="1360"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D18</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="1540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D20</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="1720"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D22</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="1900"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D24</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="2080"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D26</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="2260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D28</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="2440"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D30</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="2620"/>
-    </visualElement>
-    <visualElement>
-      <elementName>1 BIT REG V1.dig</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>D32</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1960" y="2800"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -1056,6 +716,176 @@
         </entry>
       </elementAttributes>
       <pos x="3700" y="3660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="1060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="1180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="1240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="1360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="1420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="1540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="1600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="1780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="1720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="1900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="1960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="2080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="2140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="2260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="2320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="2440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="2500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="2620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="2680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="2280" y="2860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>1 BIT REG MUL.dig</elementName>
+      <elementAttributes/>
+      <pos x="1960" y="2800"/>
     </visualElement>
   </visualElements>
   <wires>

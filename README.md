@@ -1,72 +1,30 @@
-# CUSTOM-CPU
+# Custom 16-Bit CPU Design
 
-I BUILT CUSTOM CPU THIS REPO CONTAINS ALL THE FILES THAT I MADE FOR CPU
+A custom 16-bit processor architecture designed, modeled, and simulated in the **Digital** logic simulator.
 
-## Key Features & Benefits
+## Key Architecture Features
+- **16-Bit Datapath**: All registers, buses, and memory address spaces operate on 16-bit values.
+- **Modular ALU (Arithmetic Logic Unit)**:
+  - **ADDER**: Custom-built adders including a 1-bit full adder and multi-bit Ripple Carry Adders.
+  - **COMPARATOR**: Unsigned comparator module for logical comparisons.
+  - **DIVIDER**: Custom logic for division.
+  - **MULTIPLIER**: Logic design implementing unsigned multiplication.
+  - **SHIFTER**: Supports left/right shifting and barrel shifting logic.
+  - **LOGIC CORE**: Logic gates logic unit.
+- **Storage Subsystem**:
+  - **Register File (`REG V1`)**: High-speed register files for temporary variables.
+  - **Instruction Memory**: Dedicated memory storage block for instructions.
+  - **Data Memory**: RAM layout for reading/writing parameters.
+- **Control Path**: Selectors, multiplexers (up to 16x1 16-bit configurations), and decoders (up to 4x16 configurations) coordinate signals and direct data flow.
 
-This repository contains the design files for a custom-built CPU. Key features include:
+## ISA (Instruction Set Architecture)
+The CPU supports a custom instruction set specifically tailored for logic processing. Detailed micro-operations and instruction formats are cataloged in `INSTRUCTION SET/full_instruction_set_final.pdf`.
 
-*   **Custom Instruction Set:** Designed with a specific instruction set tailored to potential applications.
-*   **Modular Design:** The CPU is designed with modular components like the ALU, Adder, Comparator, and Multiplier, allowing for easier understanding and modification.
-*   **Educational Resource:** Serves as a learning resource for understanding CPU architecture and design principles.
+## Software & Simulation Environment
+- The CPU schematics and simulator files (`.dig` extension) require Helmut Neemann's **Digital** logic simulator.
+- You can download the simulator from: [Helmut Neemann - Digital](https://github.com/hneemann/Digital).
 
-## Prerequisites & Dependencies
-
-To view and potentially modify the design files, you'll need the following:
-
-*   **Digital Logic Design Software:**  The `.dig` files likely require a digital logic simulator like Logisim-evolution or a similar tool. Check file extensions for specific tool requirements.
-*   **PDF Viewer:** To view the instruction set documentation (`full_instruction_set_final.pdf`).
-
-## Installation & Setup Instructions
-
-1.  **Clone the Repository:**
-
-    ```bash
-    git clone https://github.com/DHRUV7044/CUSTOM-CPU.git
-    cd CUSTOM-CPU
-    ```
-
-2.  **Install Digital Logic Design Software:**
-
-    *   If the `.dig` files are Logisim-evolution files, download and install it from [https://github.com/logisim-evolution/logisim-evolution](https://github.com/hneemann/Digital).
-
-3.  **Open Design Files:**
-
-    *   Use the installed digital logic design software to open the `.dig` files in the respective directories (e.g., `processor/ALU/ADDER/1 BIT ADDER.dig`).
-
-4.  **View Instruction Set:**
-    * Open the `INSTRUCTION SET/full_instruction_set_final.pdf` to understand the instruction set architecture.
-
-## Contributing Guidelines
-
-Contributions are welcome! Here's how you can contribute:
-
-1.  **Fork the Repository:**  Create your own fork of the repository.
-
-2.  **Create a Branch:**  Create a new branch for your changes.
-
-    ```bash
-    git checkout -b feature/your-feature
-    ```
-
-3.  **Make Changes:**  Implement your desired changes.
-
-4.  **Test Changes:**  Thoroughly test your changes in the digital logic simulator.
-
-5.  **Commit Changes:**  Commit your changes with descriptive commit messages.
-
-    ```bash
-    git commit -m "Add your descriptive commit message here"
-    ```
-
-6.  **Push Changes:**  Push your changes to your forked repository.
-
-    ```bash
-    git push origin feature/your-feature
-    ```
-
-7.  **Create a Pull Request:**  Submit a pull request to the main repository.
-
-## Acknowledgments
-
-*   Special thanks to the open-source community for providing excellent digital logic design tools and resources.
+## Opening the Design Files
+1. Open the **Digital** logic simulator.
+2. Select **File -> Open** and navigate to `processor/MAIN PROC.dig` to view the full system schematic.
+3. Open individual sub-circuits (e.g. `processor/ALU/MAIN ALU.dig` or `processor/STOREGE/REGISTER/REG V1.dig`) to analyze the custom block layouts.\n
